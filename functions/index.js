@@ -1,6 +1,6 @@
 const functions = require("firebase-functions");
 const admin = require("firebase-admin");
-const serviceAccount = require("./excell-33b13-firebase-adminsdk-9atg4-0eb46d0544.json");
+const serviceAccount = require("./config.json");
 const cors = require("cors")({ origin: true });
 
 admin.initializeApp({
